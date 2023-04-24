@@ -1,80 +1,104 @@
 @media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        height: 110px;
-        justify-content: flex-start;
-        align-items: center;
-    }
+	header {
+		flex-direction: column;
+		height: 110px;
+		justify-content: flex-start;
+		align-items: center;
+	}
 
-    .logo {
-        margin: -40px 30px 0 0;
-    }
+	.logo {
+		margin: -40px 30px 0 0;
+	}
 
-    #search {
-        margin: -40px 0;
-    }
+	#search {
+		margin: -40px 0;
+	}
 
-    #bigPokeCard {
-        padding-right: 0;
-    }
+	#bigPokeCard {
+		padding-right: 0;
+	}
 
-    .no-scroll {
-        padding-right: 0;
-    }
+	.big-card {
+		width: 400px;
+	}
 
-    .pokemon-card {
-        width: 175px;
-        height: 150px;
-    }
+	.pokemonImage {
+		height: 250px;
+		top: 130px;
+	}
 
-    .pokemon-card img {
-        height: 80px;
-        width: 80px;
-    }
+	.no-scroll {
+		padding-right: 0;
+	}
 
-    .head h2 {
-        font-size: 18px;
-    }
+	.pokemon-card {
+		width: 175px;
+		height: 150px;
+	}
 
-    .type {
-        padding: 2px 10px;
-        font-size: 13px;
-    }
+	.pokemon-card img {
+		height: 80px;
+		width: 80px;
+	}
+
+	.head h2 {
+		font-size: 18px;
+	}
+
+	.type {
+		padding: 2px 10px;
+		font-size: 13px;
+	}
 }
 
 @media (max-width: 400px) {
-    header {
-        margin-top: -20px;
-    }
+	header {
+		margin-top: -20px;
+	}
 
-    .logo {
-        margin: 0 30px 0 0;
-    }
+	.logo {
+		margin: 0 30px 0 0;
+	}
 
-    .logo h1 {
-        font-size: 30px;
-    }
+	.logo h1 {
+		font-size: 30px;
+	}
 
-    .logo img {
-        height: 100px;
-        width: 100px;
-    }
+	.logo img {
+		height: 100px;
+		width: 100px;
+	}
 
-    #search {
-        margin: -27px;
-    }
+	#search {
+		margin: -27px;
+	}
 
-    #bigPokeCard {
-        padding-right: 0;
-    }
+	#bigPokeCard {
+		padding-right: 0;
+	}
 
-    .no-scroll {
-        padding-right: 0;
-    }
+	.big-card {
+		width: 100%;
+		height: 100%;
+	}
+
+	.info-container {
+		height: 100%;
+	}
+
+	.top-container{
+		border-top-left-radius: unset;
+		border-top-right-radius: unset;
+	}
+
+	.pokemonImage {
+		height: 250px;
+		top: 130px;
+	}
 }
 
 @media (hover: none) {
-    .pokemon-card:hover {
-        transform: scale(1);
-    }
+	.pokemon-card:hover {
+		transform: scale(1);
+	}
 }
